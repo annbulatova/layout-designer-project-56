@@ -1,0 +1,71 @@
+.flex {
+    display: flex;
+}
+
+.absolute-header {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.text-logo {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: $color-dark-grey;
+}
+
+.styless {
+    text-decoration: none;
+    color: inherit;
+}
+
+.search {
+    width: 248px;
+    height: 25px;
+
+    border: none;
+    border-radius: 50px;
+    padding: 5px 0 5px 10px;
+
+    background-color: $color-dark;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.mr-90 {
+    margin-right: 90px;
+}
+
+.mr-451 {
+    margin-right: 451px;
+}
+
+.white-color {
+    color: $color-white;
+}
+
+.main-page {
+    width: 1200px;
+    margin: 0 20px;
+    padding: 200px 0;
+
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+}
