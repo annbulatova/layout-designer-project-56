@@ -17,27 +17,32 @@ html {
     font-family: Roboto-Regular, sans-serif;
     line-height: 1.5;
     color: $color-dark-grey;
-    background-color: $color-dark;
+    background-color: $color-black;
 }
 
 body{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0;
 }
 
-.h1.desktop {
+.h1-desktop {
     font-size: 60px;
     font-weight: 700;
-    line-height: 90px;
+    line-height: 1.5;
     text-transform: uppercase;
+
+    color: $color-white;
 }
 
 .h2-desktop {
     font-size: 38px;
     font-weight: 700;
-    line-height: 57px;
+    line-height: 1.5;
     text-transform: uppercase;
+
+    color: $color-white;
 }
 
 .h3-desktop {
@@ -45,6 +50,8 @@ body{
     font-weight: 400;
     line-height: 45px;
     text-transform: uppercase;
+
+    color: $color-white;
 }
 
 .h3-capitalize-desktop {
