@@ -16,6 +16,10 @@
 }
 
 @media screen and (max-width: 1240px) {
+    .h1-desktop {
+        margin-top: 25px;
+    }
+
     .btns {
         flex-direction: column;
     }

@@ -1,13 +1,13 @@
+.relative {
+    position: relative;
+}
+
 .flex {
     display: flex;
 }
 
 .grid {
     display: grid;
-}
-
-.grid-col-all {
-    grid-column: 1 / -1;
 }
 
 .list-none {
@@ -76,6 +76,10 @@
 
 .mt-24 {
     margin-top: 24px;
+}
+
+.mt-43 {
+    margin-top: 43px;
 }
 
 .mb-0 {

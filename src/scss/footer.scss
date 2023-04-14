@@ -7,12 +7,11 @@
 .grid-footer {
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 40px;
-    margin-top: 3rem;
-    margin-bottom: 72px;
+    margin: 3rem auto 72px;
 }
 
 .footer-nav {
-    margin: 2rem auto;
+    margin: 40px auto 47px;
 }
 
 @media screen and (max-width: 1240px) {
