@@ -24,11 +24,20 @@
     border: 1px solid $color-white;
     border-radius: 5px;
 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
     background: transparent;
 }
 
 @media screen and (max-width: 1240px) {
     .grid-pricing {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .h3-desktop {
+        font-weight: 700;
+        font-size: 16px;
     }
 }

@@ -24,6 +24,24 @@ body {
   margin: 0;
 }
 
+.section-style {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 0;
+  box-sizing: content-box;
+}
+
+.btn {
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+}
+
+.styless {
+  text-decoration: none;
+  color: inherit;
+}
+
 .h1-desktop {
   font-size: 60px;
   font-weight: 700;
@@ -43,7 +61,7 @@ body {
 .h3-desktop {
   font-size: 24px;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 1.5;
   text-transform: uppercase;
   color: #fff;
 }
@@ -156,6 +174,18 @@ body {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1240px) {
+  .section-style {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .text-order {
+    order: 2;
+  }
+  .img-order {
+    order: 1;
+  }
+}
 .flex {
   display: flex;
 }
@@ -166,24 +196,6 @@ body {
 
 .grid-col-all {
   grid-column: 1/-1;
-}
-
-.section-style {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 100px 20px 0;
-  box-sizing: content-box;
-}
-
-.btn {
-  color: #fff;
-  border: none;
-  text-transform: uppercase;
-}
-
-.styless {
-  text-decoration: none;
-  color: inherit;
 }
 
 .list-none {
@@ -226,6 +238,10 @@ body {
   padding: 0;
 }
 
+.p-200 {
+  padding: 200px 20px;
+}
+
 .m-auto {
   margin: 0 auto;
 }
@@ -238,6 +254,10 @@ body {
   margin-top: 0;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
 .mt-18 {
   margin-top: 18px;
 }
@@ -248,6 +268,10 @@ body {
 
 .mb-0 {
   margin-bottom: 0;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .mb-48 {
@@ -327,18 +351,6 @@ body {
   background-image: url("../images/Morten Harket.png");
 }
 
-@media screen and (max-width: 1240px) {
-  .section-style {
-    width: 100%;
-    box-sizing: border-box;
-  }
-  .text-order {
-    order: 2;
-  }
-  .img-order {
-    order: 1;
-  }
-}
 .absolute-header {
   position: absolute;
   top: 25px;
@@ -356,7 +368,7 @@ body {
 }
 
 .text-header {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 11px;
   line-height: 16px;
   text-transform: uppercase;
@@ -376,7 +388,7 @@ body {
   background-color: #3c3b3d;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1240px) {
   .absolute-header {
     flex-direction: column;
     align-items: flex-start;
@@ -468,12 +480,19 @@ body {
   padding: 21px 0;
   border: 1px solid #fff;
   border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
   background: transparent;
 }
 
 @media screen and (max-width: 1240px) {
   .grid-pricing {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .h3-desktop {
+    font-weight: 700;
+    font-size: 16px;
   }
 }
 .h3-news {
@@ -541,8 +560,9 @@ body {
 
 .grid-footer {
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 40px;
-  margin: 3rem auto;
+  grid-column-gap: 40px;
+  margin-top: 3rem;
+  margin-bottom: 72px;
 }
 
 .footer-nav {
@@ -556,6 +576,7 @@ body {
   }
   .grid-footer {
     grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 15px;
   }
   .footer-nav {
     flex-direction: column;
@@ -568,6 +589,7 @@ body {
   width: 200px;
   margin: 0 1.5rem 1.5rem 0;
   padding: 20px 30px;
+  border-radius: 5px;
   font-size: 12.8px;
 }
 
