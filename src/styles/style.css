@@ -567,7 +567,7 @@ body {
 }
 
 .footer-nav {
-  margin: 40px auto 47px;
+  margin: 2rem auto;
 }
 
 @media screen and (max-width: 1240px) {
@@ -583,7 +583,7 @@ body {
     flex-direction: column;
   }
   .footer-nav a {
-    margin: 0 0 16px;
+    margin: 16px 0 0;
   }
 }
 .btn-artist {
@@ -603,7 +603,7 @@ body {
 }
 
 @media screen and (max-width: 1240px) {
-  .h1-desktop {
+  .h1-artist {
     margin-top: 25px;
   }
   .btns {
