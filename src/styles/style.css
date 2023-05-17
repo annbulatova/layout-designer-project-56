@@ -266,8 +266,8 @@ body {
   margin-top: 24px;
 }
 
-.mt-43 {
-  margin-top: 43px;
+.mt-42 {
+  margin-top: 42px;
 }
 
 .mb-0 {
@@ -282,10 +282,6 @@ body {
   margin-bottom: 48px;
 }
 
-.mb-46 {
-  margin-bottom: 46px;
-}
-
 .mb-64 {
   margin-bottom: 64px;
 }
@@ -296,6 +292,10 @@ body {
 
 .mb-200 {
   margin-bottom: 200px;
+}
+
+.mr-16 {
+  margin-right: 16px;
 }
 
 .mr-24 {
@@ -332,6 +332,9 @@ body {
 
 .bg-center {
   background-position: center;
+}
+
+.bg-cover {
   background-size: cover;
 }
 
@@ -366,6 +369,7 @@ body {
   padding: 0 20px;
   justify-content: space-between;
   box-sizing: border-box;
+  z-index: 2;
 }
 
 .logo {
@@ -567,11 +571,11 @@ body {
 .grid-footer {
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 40px;
-  margin: 3rem auto 72px;
+  margin: 3rem auto;
 }
 
 .footer-nav {
-  margin: 40px auto 49px;
+  margin: 2rem auto;
 }
 
 @media screen and (max-width: 1240px) {
@@ -581,13 +585,9 @@ body {
   }
   .grid-footer {
     grid-template-columns: repeat(1, 1fr);
-    grid-row-gap: 15px;
   }
   .footer-nav {
     flex-direction: column;
-  }
-  .footer-nav a {
-    margin: 16px 0 0;
   }
 }
 .btn-artist {

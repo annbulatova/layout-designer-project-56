@@ -7,11 +7,11 @@
 .grid-footer {
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 40px;
-    margin: 3rem auto 72px;
+    margin: 3rem auto;
 }
 
 .footer-nav {
-    margin: 40px auto 49px;
+    margin: 2rem auto;
 }
 
 @media screen and (max-width: 1240px) {
@@ -22,14 +22,9 @@
 
     .grid-footer {
         grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 15px;
     }
 
     .footer-nav {
         flex-direction: column;
-    }
-
-    .footer-nav a {
-        margin: 16px 0 0;
     }
 }
