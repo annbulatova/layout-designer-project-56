@@ -368,7 +368,7 @@ body {
   width: 1200px;
   padding: 0 20px;
   justify-content: space-between;
-  box-sizing: border-box;
+  box-sizing: content-box;
   z-index: 2;
 }
 
@@ -503,7 +503,6 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
   .h3-desktop {
-    font-weight: 700;
     font-size: 16px;
   }
 }
@@ -564,18 +563,19 @@ body {
 }
 .footer {
   width: 1200px;
-  padding: 0 20px;
   box-sizing: content-box;
 }
 
 .grid-footer {
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 40px;
-  margin: 3rem auto;
+  margin: auto;
+  padding: 3rem 20px;
 }
 
 .footer-nav {
-  margin: 2rem auto;
+  margin: auto;
+  padding: 2rem 20px;
 }
 
 @media screen and (max-width: 1240px) {

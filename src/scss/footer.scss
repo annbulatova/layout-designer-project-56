@@ -1,17 +1,18 @@
 .footer {
     width: 1200px;
-    padding: 0 20px;
     box-sizing: content-box;
 }
 
 .grid-footer {
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 40px;
-    margin: 3rem auto;
+    margin: auto;
+    padding: 3rem 20px;
 }
 
 .footer-nav {
-    margin: 2rem auto;
+    margin: auto;
+    padding: 2rem 20px;
 }
 
 @media screen and (max-width: 1240px) {
