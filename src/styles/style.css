@@ -186,10 +186,6 @@ body {
     order: 1;
   }
 }
-.relative {
-  position: relative;
-}
-
 .flex {
   display: flex;
 }
@@ -366,6 +362,7 @@ body {
   position: absolute;
   top: 25px;
   width: 1200px;
+  margin: 0 auto;
   padding: 0 20px;
   justify-content: space-between;
   box-sizing: content-box;
@@ -415,12 +412,6 @@ body {
     width: 100%;
   }
 }
-.main-page {
-  width: 1200px;
-  padding: 200px 20px;
-  box-sizing: content-box;
-}
-
 .form {
   flex-direction: column;
   max-width: 570px;
@@ -450,10 +441,6 @@ body {
 }
 
 @media screen and (max-width: 1240px) {
-  .main-page {
-    width: 100%;
-    box-sizing: border-box;
-  }
   .h1-desktop {
     font-size: 30px;
     margin-top: 3rem;
