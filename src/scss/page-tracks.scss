@@ -1,21 +1,21 @@
 .img-album {
-    width: 55px;
-    height: 55px;
+  width: 55px;
+  height: 55px;
 }
 
 .grid-tracks {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 25px 50px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px 50px;
 }
 
 .track-info {
-    flex-grow: 1;
-    justify-content: space-between;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1240px) {
-    .grid-tracks {
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 25px;
-    }
+  .grid-tracks {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 25px;
+  }
 }
