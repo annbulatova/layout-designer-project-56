@@ -364,10 +364,9 @@ body {
 
 .absolute-header {
   position: absolute;
-  width: 1200px;
   top: 25px;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 1200px;
+  margin: 0 auto;
   padding: 0 20px;
   justify-content: space-between;
   box-sizing: content-box;
@@ -434,6 +433,10 @@ body {
   font-weight: 700;
   font-size: 14px;
   background: transparent;
+}
+
+.text-input::-moz-placeholder {
+  color: #fff;
 }
 
 .text-input::placeholder {
@@ -657,6 +660,4 @@ body {
   .grid-discography div:nth-of-type(2n) {
     margin-right: 50px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=app.css.map */
