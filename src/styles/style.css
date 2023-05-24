@@ -2,14 +2,17 @@
   font-family: Roboto-Regular;
   src: url("/fonts/Roboto-Regular.ttf");
 }
+
 @font-face {
   font-family: Roboto-Medium;
   src: url("/fonts/Roboto-Medium.ttf");
 }
+
 @font-face {
   font-family: Roboto-Bold;
   src: url("/fonts/Roboto-Bold.ttf");
 }
+
 html {
   font-family: Roboto-Regular, sans-serif;
   line-height: 1.5;
@@ -35,6 +38,7 @@ body {
   color: #fff;
   border: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .styless {
@@ -179,15 +183,14 @@ body {
     width: 100%;
     box-sizing: border-box;
   }
+
   .text-order {
     order: 2;
   }
+
   .img-order {
     order: 1;
   }
-}
-.relative {
-  position: relative;
 }
 
 .flex {
@@ -409,15 +412,18 @@ body {
     width: 100%;
     box-sizing: border-box;
   }
+
   .header-nav {
     flex-direction: column;
     margin-top: 16px;
     margin-bottom: 18px;
   }
+
   .search {
     width: 100%;
   }
 }
+
 .form {
   flex-direction: column;
   max-width: 570px;
@@ -451,16 +457,20 @@ body {
     font-size: 30px;
     margin-top: 3rem;
   }
+
   .h2-desktop {
     font-size: 18px;
   }
+
   form div {
     flex-direction: column;
   }
+
   .text-input {
     margin-right: 0;
   }
 }
+
 .grid-pricing {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
@@ -495,10 +505,12 @@ body {
   .grid-pricing {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .h3-desktop {
     font-size: 16px;
   }
 }
+
 .h3-news {
   font-size: 30px;
   font-weight: 400;
@@ -534,10 +546,12 @@ body {
   .news-item {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .h3-news {
     font-size: 16px;
   }
 }
+
 .btn-download {
   padding: 16px 40px;
   border: none;
@@ -550,10 +564,12 @@ body {
   .mobile {
     flex-direction: column;
   }
+
   .mobile .w-50 {
     width: 100%;
   }
 }
+
 .footer {
   width: 1200px;
   box-sizing: content-box;
@@ -576,13 +592,16 @@ body {
     width: 100%;
     box-sizing: border-box;
   }
+
   .grid-footer {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .footer-nav {
     flex-direction: column;
   }
 }
+
 .btn-artist {
   width: 200px;
   margin: 0 1.5rem 1.5rem 0;
@@ -603,10 +622,12 @@ body {
   .h1-artist {
     margin-top: 25px;
   }
+
   .btns {
     flex-direction: column;
   }
 }
+
 .img-album {
   width: 55px;
   height: 55px;
@@ -628,6 +649,7 @@ body {
     grid-gap: 25px;
   }
 }
+
 .grid-discography {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 25px 50px;
@@ -647,13 +669,16 @@ body {
   .grid-discography {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .disk-img {
     width: 137px;
     height: 137px;
   }
+
   .disc-info {
     max-width: 137px;
   }
+  
   .grid-discography div:nth-of-type(2n) {
     margin-right: 50px;
   }

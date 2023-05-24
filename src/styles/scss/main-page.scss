@@ -1,0 +1,51 @@
+.form {
+  flex-direction: column;
+
+  max-width: 570px;
+  margin: auto;
+}
+
+.text-input {
+  min-width: 250px;
+  min-height: 46px;
+  padding: 0 0 0 20px;
+  margin-bottom: 1.5rem;
+
+  border: 2px solid $color-dark-grey;
+  border-radius: 3px;
+
+  font-weight: 700;
+  font-size: 14px;
+
+  background: transparent;
+}
+
+.text-input::placeholder {
+  color: $color-white;
+}
+
+.btn-green {
+  padding: 20px 30px;
+  border-radius: 5px;
+
+  background-color: $color-green;
+}
+
+@media screen and (max-width: 1240px) {
+  .h1-desktop {
+    font-size: 30px;
+    margin-top: 3rem;
+  }
+
+  .h2-desktop {
+    font-size: 18px;
+  }
+
+  form div {
+    flex-direction: column;
+  }
+
+  .text-input {
+    margin-right: 0;
+  }
+}

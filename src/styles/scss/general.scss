@@ -1,0 +1,197 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url("/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("/fonts/Roboto-Bold.ttf");
+}
+
+html {
+  font-family: Roboto-Regular, sans-serif;
+  line-height: 1.5;
+  color: $color-dark-grey;
+  background-color: $color-black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.section-style {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 0;
+  box-sizing: content-box;
+}
+
+.btn {
+  color: $color-white;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.styless {
+  text-decoration: none;
+  color: inherit;
+}
+
+.h1-desktop {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  
+  color: $color-white;
+}
+
+.h2-desktop {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  
+  color: $color-white;
+}
+
+.h3-desktop {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  
+  color: $color-white;
+}
+
+.h3-capitalize-desktop {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.h3-capitalize-bold-desktop {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.h4-desktop {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.h4-capitalize-bold-desktop {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.h1-mobile {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.h2-mobile {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.h3-mobile {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.h4-mobile {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.text-size-7 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.text-size-6 {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.text-size-5 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.text-size-4 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.text-size-3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.text-size-2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.text-size-1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.text-small {
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.text-small-bold {
+  font-size: 12.8px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1240px) {
+  .section-style {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .text-order {
+    order: 2;
+  }
+
+  .img-order {
+    order: 1;
+  }
+}

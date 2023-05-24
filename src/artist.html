@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="flex align-center absolute-header">
+    <header class="flex absolute-header align-center">
         <div class="flex align-center mr-90">
             <img class="logo" src="./images/logo.svg" alt="Логотип Music Box">
             <p class="text-header m-0 white-color">Music Box</p>
@@ -28,8 +28,10 @@
             <h1 class="h1-desktop h1-artist mb-0">Morten Harket</h1>
             <p class="text-size-1 mb-48 white-color">24 875 поклонников</p>
             <div class="flex btns">
-                <button class="btn btn-artist bg-purple"><img class="btn-img" src="./images/play-button.svg" alt="Mix">Микс</button>
-                <button class="btn btn-artist bg-red"><img class="btn-img" src="./images/heart.svg" alt="Add to list">В избранное</button>
+                <form>
+                    <button class="btn btn-artist bg-purple" type="submit"><img class="btn-img" src="./images/play-button.svg" alt="Mix">Микс</button>
+                    <button class="btn btn-artist bg-red" type="submit"><img class="btn-img" src="./images/heart.svg" alt="Add to list">В избранное</button>
+                </form>
             </div>
         </div>
     </section>

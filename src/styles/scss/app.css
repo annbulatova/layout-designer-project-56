@@ -35,6 +35,7 @@ body {
   color: #fff;
   border: none;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .styless {
@@ -186,10 +187,6 @@ body {
     order: 1;
   }
 }
-.relative {
-  position: relative;
-}
-
 .flex {
   display: flex;
 }
@@ -364,9 +361,10 @@ body {
 
 .absolute-header {
   position: absolute;
-  top: 25px;
   width: 1200px;
-  margin: 0 auto;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 0 20px;
   justify-content: space-between;
   box-sizing: content-box;
